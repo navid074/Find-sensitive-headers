@@ -81,5 +81,5 @@ def check_sensitive_headers(url):
         logger.error(f"Error: {e}")
 
 # URL HERE
-url = "https://idp.afta.nmsapps.ir/Account/Login?ReturnUrl=%2Fconnect%2Fauthorize%2Fcallback%3Fclient_id%3Drahavard_angular%26redirect_uri%3Dhttps%253A%252F%252Frahavard.afta.nmsapps.ir%252Fsignin-callback%26response_type%3Dcode%26scope%3Dopenid%2520profile%2520role%2520zone%2520coreAPI%2520rahavardAPI%2520mailroomAPI%2520mayanAPI%2520nosaziAPI%26state%3D30775c5a7d6f440ea825baf7f08a7fe9%26code_challenge%3D_jiqvNpSUaD12qi__1lUPhnvwigtQjVZ22kqHCK2XBg%26code_challenge_method%3DS256%26response_mode%3Dfragment"
+url = "example.com"
 check_sensitive_headers(url)
